@@ -1,0 +1,51 @@
+.
+├── client
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── AddTaskForm.jsx
+│   │   │   └── TaskCard.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── models
+│   │   │   └── Task.js
+│   │   ├── services
+│   │   │   └── taskService.js
+│   │   ├── utils
+│   │   └── views
+│   ├── structure.txt
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── vite.config.js
+├── docker-compose.yml
+├── package-lock.json
+├── package.json
+├── README.md
+├── server
+│   ├── .env
+│   ├── client
+│   ├── controllers
+│   │   └── taskController.js
+│   ├── db
+│   │   └── index.js
+│   ├── Dockerfile
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── routes
+│       └── taskRoutes.js
+└── structure.txt
+
+14 directories, 35 files
